@@ -25,5 +25,5 @@ interface ApiExceptionTransformerInterface
      *
      * @return ApiException|\Throwable
      */
-    public function transform(\Throwable $exception): \Throwable;
+    public function transform(\Throwable $exception);
 }
