@@ -33,7 +33,7 @@ class AccessTokenValidator
      *
      * @throws \InvalidArgumentException
      */
-    public static function assertIsValid($value): void
+    public static function assertIsValid($value)
     {
         if (false === self::isValid($value)) {
             throw new \InvalidArgumentException(sprintf('Invalid Access Token, should be not empty string!'));
@@ -55,7 +55,7 @@ class AccessTokenValidator
      *
      * @throws \InvalidArgumentException
      */
-    public static function assertIsValidOrEmpty($value): void
+    public static function assertIsValidOrEmpty($value)
     {
         if (false === self::isValidOrEmpty($value)) {
             throw new \InvalidArgumentException(sprintf('Invalid Access Token, should be not empty string!'));
