@@ -20,9 +20,9 @@ use Zibios\WrikePhpLibrary\Enum\AbstractEnum;
  */
 class RequestMethodEnum extends AbstractEnum
 {
-    public const GET = 'GET';
-    public const POST = 'POST';
-    public const PUT = 'PUT';
-    public const DELETE = 'DELETE';
-    public const UPLOAD = 'UPLOAD';
+    const GET = 'GET';
+    const POST = 'POST';
+    const PUT = 'PUT';
+    const DELETE = 'DELETE';
+    const UPLOAD = 'UPLOAD';
 }
