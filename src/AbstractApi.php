@@ -45,7 +45,7 @@ use Zibios\WrikePhpLibrary\Validator\AccessTokenValidator;
  */
 abstract class AbstractApi implements ApiInterface
 {
-    public const BASE_URI = 'https://www.wrike.com/api/v4/';
+    const BASE_URI = 'https://www.wrike.com/api/v4/';
 
     /**
      * @var ClientInterface
