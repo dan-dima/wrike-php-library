@@ -18,7 +18,7 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class TaskImportanceEnum extends AbstractEnum
 {
-    public const HIGH = 'High';
-    public const NORMAL = 'Normal';
-    public const LOW = 'Low';
+    const HIGH = 'High';
+    const NORMAL = 'Normal';
+    const LOW = 'Low';
 }

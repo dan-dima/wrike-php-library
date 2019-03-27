@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class ParameterRequiredException extends ApiException
 {
-    public const STATUS_CODE = 400;
-    public const STATUS_NAME = 'parameter_required';
+    const STATUS_CODE = 400;
+    const STATUS_NAME = 'parameter_required';
 }

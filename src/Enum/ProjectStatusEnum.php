@@ -18,10 +18,10 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class ProjectStatusEnum extends AbstractEnum
 {
-    public const GREEN = 'Green';
-    public const YELLOW = 'Yellow';
-    public const RED = 'Red';
-    public const COMPLETED = 'Completed';
-    public const ON_HOLD = 'OnHold';
-    public const CANCELLED = 'Cancelled';
+    const GREEN = 'Green';
+    const YELLOW = 'Yellow';
+    const RED = 'Red';
+    const COMPLETED = 'Completed';
+    const ON_HOLD = 'OnHold';
+    const CANCELLED = 'Cancelled';
 }

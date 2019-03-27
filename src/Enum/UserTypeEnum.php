@@ -21,12 +21,12 @@ class UserTypeEnum extends AbstractEnum
     /**
      * Person.
      */
-    public const PERSON = 'Person';
+    const PERSON = 'Person';
 
     /**
      * Group of users.
      *
      * Group userId can be used in folder/task sharing requests only. It has no effect in other operations.
      */
-    public const GROUP = 'Group';
+    const GROUP = 'Group';
 }

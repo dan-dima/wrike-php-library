@@ -21,10 +21,10 @@ class RescheduleModeEnum extends AbstractEnum
     /**
      * Tasks in scope are rescheduled starting from reschedule date.
      */
-    public const START = 'Start';
+    const START = 'Start';
 
     /**
      * Tasks in scope are rescheduled ending with reschedule date.
      */
-    public const END = 'End';
+    const END = 'End';
 }

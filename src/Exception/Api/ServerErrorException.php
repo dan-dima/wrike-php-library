@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class ServerErrorException extends ApiException
 {
-    public const STATUS_CODE = 500;
-    public const STATUS_NAME = 'server_error';
+    const STATUS_CODE = 500;
+    const STATUS_NAME = 'server_error';
 }

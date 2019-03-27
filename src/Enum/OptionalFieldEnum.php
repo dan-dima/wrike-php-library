@@ -21,85 +21,85 @@ class OptionalFieldEnum extends AbstractEnum
     /**
      * Metadata.
      */
-    public const METADATA = 'metadata';
+    const METADATA = 'metadata';
 
     /**
      * Subscription.
      */
-    public const SUBSCRIPTION = 'subscription';
+    const SUBSCRIPTION = 'subscription';
 
     /**
      * Custom Fields.
      */
-    public const CUSTOM_FIELDS = 'customFields';
+    const CUSTOM_FIELDS = 'customFields';
 
     /**
      * Description.
      */
-    public const DESCRIPTION = 'description';
+    const DESCRIPTION = 'description';
 
     /**
      * Brief Description.
      */
-    public const BRIEF_DESCRIPTION = 'briefDescription';
+    const BRIEF_DESCRIPTION = 'briefDescription';
 
     /**
      * Custom Column Ids.
      */
-    public const CUSTOM_COLUMN_IDS = 'customColumnIds';
+    const CUSTOM_COLUMN_IDS = 'customColumnIds';
 
     /**
      * List of task parent folder.
      */
-    public const PARENT_IDS = 'parentIds';
+    const PARENT_IDS = 'parentIds';
 
     /**
      * List of folder IDs inherited from parent task.
      */
-    public const SUPER_PARENT_IDS = 'superParentIds';
+    const SUPER_PARENT_IDS = 'superParentIds';
 
     /**
      * List of user IDs, who have task share.
      */
-    public const SHARED_IDS = 'sharedIds';
+    const SHARED_IDS = 'sharedIds';
 
     /**
      * List of responsible user IDs.
      */
-    public const RESPONSIBLE_IDS = 'responsibleIds';
+    const RESPONSIBLE_IDS = 'responsibleIds';
 
     /**
      * List of supertask IDs.
      */
-    public const SUPER_TASK_IDS = 'superTaskIds';
+    const SUPER_TASK_IDS = 'superTaskIds';
 
     /**
      * List of subtask IDs.
      */
-    public const SUB_TASK_IDS = 'subTaskIds';
+    const SUB_TASK_IDS = 'subTaskIds';
 
     /**
      * Dependency IDs.
      */
-    public const DEPENDENCY_IDS = 'dependencyIds';
+    const DEPENDENCY_IDS = 'dependencyIds';
 
     /**
      * Has attachments.
      */
-    public const HAS_ATTACHMENTS = 'hasAttachments';
+    const HAS_ATTACHMENTS = 'hasAttachments';
 
     /**
      * Attachment Count.
      */
-    public const ATTACHMENT_COUNT = 'attachmentCount';
+    const ATTACHMENT_COUNT = 'attachmentCount';
 
     /**
      * Recurrent.
      */
-    public const RECURRENT = 'recurrent';
+    const RECURRENT = 'recurrent';
 
     /**
      * Author IDs.
      */
-    public const AUTHOR_IDS = 'authorIds';
+    const AUTHOR_IDS = 'authorIds';
 }

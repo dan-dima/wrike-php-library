@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class MethodNotFoundException extends ApiException
 {
-    public const STATUS_CODE = 404;
-    public const STATUS_NAME = 'method_not_found';
+    const STATUS_CODE = 404;
+    const STATUS_NAME = 'method_not_found';
 }

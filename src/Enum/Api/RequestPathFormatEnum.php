@@ -20,71 +20,71 @@ use Zibios\WrikePhpLibrary\Enum\AbstractEnum;
  */
 class RequestPathFormatEnum extends AbstractEnum
 {
-    public const CONTACTS = 'contacts';
-    public const CONTACTS_BY_ID = 'contacts/%s';
-    public const CONTACTS_BY_IDS = 'contacts/%s';
+    const CONTACTS = 'contacts';
+    const CONTACTS_BY_ID = 'contacts/%s';
+    const CONTACTS_BY_IDS = 'contacts/%s';
 
-    public const USERS_BY_ID = 'users/%s';
+    const USERS_BY_ID = 'users/%s';
 
-    public const GROUPS = 'groups';
-    public const GROUPS_BY_ID = 'groups/%s';
+    const GROUPS = 'groups';
+    const GROUPS_BY_ID = 'groups/%s';
 
-    public const INVITATIONS = 'invitations';
-    public const INVITATIONS_BY_ID = 'invitations/%s';
+    const INVITATIONS = 'invitations';
+    const INVITATIONS_BY_ID = 'invitations/%s';
 
-    public const ACCOUNTS = 'account';
+    const ACCOUNTS = 'account';
 
-    public const WORKFLOWS = 'workflows';
-    public const WORKFLOWS_BY_ID = 'workflows/%s';
+    const WORKFLOWS = 'workflows';
+    const WORKFLOWS_BY_ID = 'workflows/%s';
 
-    public const CUSTOM_FIELDS = 'customfields';
-    public const CUSTOM_FIELDS_BY_ID = 'customfields/%s';
-    public const CUSTOM_FIELDS_BY_IDS = 'customfields/%s';
+    const CUSTOM_FIELDS = 'customfields';
+    const CUSTOM_FIELDS_BY_ID = 'customfields/%s';
+    const CUSTOM_FIELDS_BY_IDS = 'customfields/%s';
 
-    public const FOLDERS = 'folders';
-    public const FOLDERS_FOR_FOLDER = 'folders/%s/folders';
-    public const FOLDERS_BY_ID = 'folders/%s';
-    public const FOLDERS_BY_IDS = 'folders/%s';
-    public const FOLDERS_COPY = 'copy_folder/%s';
+    const FOLDERS = 'folders';
+    const FOLDERS_FOR_FOLDER = 'folders/%s/folders';
+    const FOLDERS_BY_ID = 'folders/%s';
+    const FOLDERS_BY_IDS = 'folders/%s';
+    const FOLDERS_COPY = 'copy_folder/%s';
 
-    public const TASKS = 'tasks';
-    public const TASKS_FOR_FOLDER = 'folders/%s/tasks';
-    public const TASKS_BY_ID = 'tasks/%s';
-    public const TASKS_BY_IDS = 'tasks/%s';
+    const TASKS = 'tasks';
+    const TASKS_FOR_FOLDER = 'folders/%s/tasks';
+    const TASKS_BY_ID = 'tasks/%s';
+    const TASKS_BY_IDS = 'tasks/%s';
 
-    public const COMMENTS = 'comments';
-    public const COMMENTS_FOR_FOLDER = 'folders/%s/comments';
-    public const COMMENTS_FOR_TASK = 'tasks/%s/comments';
-    public const COMMENTS_BY_ID = 'comments/%s';
-    public const COMMENTS_BY_IDS = 'comments/%s';
+    const COMMENTS = 'comments';
+    const COMMENTS_FOR_FOLDER = 'folders/%s/comments';
+    const COMMENTS_FOR_TASK = 'tasks/%s/comments';
+    const COMMENTS_BY_ID = 'comments/%s';
+    const COMMENTS_BY_IDS = 'comments/%s';
 
-    public const DEPENDENCIES = 'dependencies';
-    public const DEPENDENCIES_FOR_TASK = 'tasks/%s/dependencies';
-    public const DEPENDENCIES_BY_ID = 'dependencies/%s';
-    public const DEPENDENCIES_BY_IDS = 'dependencies/%s';
+    const DEPENDENCIES = 'dependencies';
+    const DEPENDENCIES_FOR_TASK = 'tasks/%s/dependencies';
+    const DEPENDENCIES_BY_ID = 'dependencies/%s';
+    const DEPENDENCIES_BY_IDS = 'dependencies/%s';
 
-    public const TIMELOGS = 'timelogs';
-    public const TIMELOGS_FOR_CONTACT = 'contacts/%s/timelogs';
-    public const TIMELOGS_FOR_FOLDER = 'folders/%s/timelogs';
-    public const TIMELOGS_FOR_TASK = 'tasks/%s/timelogs';
-    public const TIMELOGS_FOR_TIMELOG_CATEGORY = 'timelog_categories/%s/timelogs';
-    public const TIMELOGS_BY_ID = 'timelogs/%s';
-    public const TIMELOGS_BY_IDS = 'timelogs/%s';
+    const TIMELOGS = 'timelogs';
+    const TIMELOGS_FOR_CONTACT = 'contacts/%s/timelogs';
+    const TIMELOGS_FOR_FOLDER = 'folders/%s/timelogs';
+    const TIMELOGS_FOR_TASK = 'tasks/%s/timelogs';
+    const TIMELOGS_FOR_TIMELOG_CATEGORY = 'timelog_categories/%s/timelogs';
+    const TIMELOGS_BY_ID = 'timelogs/%s';
+    const TIMELOGS_BY_IDS = 'timelogs/%s';
 
-    public const TIMELOG_CATEGORIES = 'timelog_categories';
+    const TIMELOG_CATEGORIES = 'timelog_categories';
 
-    public const ATTACHMENTS = 'attachments';
-    public const ATTACHMENTS_FOR_FOLDER = 'folders/%s/attachments';
-    public const ATTACHMENTS_FOR_TASK = 'tasks/%s/attachments';
-    public const ATTACHMENTS_BY_ID = 'attachments/%s';
-    public const ATTACHMENTS_BY_IDS = 'attachments/%s';
-    public const ATTACHMENTS_DOWNLOAD = 'attachments/%s/download';
-    public const ATTACHMENTS_DOWNLOAD_PREVIEW = 'attachments/%s/preview';
-    public const ATTACHMENTS_URL = 'attachments/%s/url';
+    const ATTACHMENTS = 'attachments';
+    const ATTACHMENTS_FOR_FOLDER = 'folders/%s/attachments';
+    const ATTACHMENTS_FOR_TASK = 'tasks/%s/attachments';
+    const ATTACHMENTS_BY_ID = 'attachments/%s';
+    const ATTACHMENTS_BY_IDS = 'attachments/%s';
+    const ATTACHMENTS_DOWNLOAD = 'attachments/%s/download';
+    const ATTACHMENTS_DOWNLOAD_PREVIEW = 'attachments/%s/preview';
+    const ATTACHMENTS_URL = 'attachments/%s/url';
 
-    public const VERSIONS = 'version';
+    const VERSIONS = 'version';
 
-    public const IDS = 'ids';
+    const IDS = 'ids';
 
-    public const COLORS = 'colors';
+    const COLORS = 'colors';
 }

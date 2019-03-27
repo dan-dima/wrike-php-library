@@ -18,7 +18,7 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class TaskDatesTypeEnum extends AbstractEnum
 {
-    public const BACKLOG = 'Backlog';
-    public const MILESTONE = 'Milestone';
-    public const PLANNED = 'Planned';
+    const BACKLOG = 'Backlog';
+    const MILESTONE = 'Milestone';
+    const PLANNED = 'Planned';
 }

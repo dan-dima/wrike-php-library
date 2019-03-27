@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class InvalidRequestException extends ApiException
 {
-    public const STATUS_CODE = 400;
-    public const STATUS_NAME = 'invalid_request';
+    const STATUS_CODE = 400;
+    const STATUS_NAME = 'invalid_request';
 }

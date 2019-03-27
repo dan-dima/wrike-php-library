@@ -22,36 +22,36 @@ class AttachmentTypeEnum extends AbstractEnum
      * Attachment file content stored in Wrike.
      * When deleted, actual file is removed.
      */
-    public const WRIKE = 'Wrike';
+    const WRIKE = 'Wrike';
 
     /**
      * Google attachment.
      * Attachment can be accessed only via URL, downloads are not supported by Wrike.
      * When deleted, only stored link is removed.
      */
-    public const GOOGLE = 'Google';
+    const GOOGLE = 'Google';
 
     /**
      * DropBox attachment.
      * When deleted, only stored link is removed.
      */
-    public const DROP_BOX = 'DropBox';
+    const DROP_BOX = 'DropBox';
 
     /**
      * Box attachment.
      * Attachment can be accessed only via URL, downloads are not supported by Wrike.
      * When deleted, only stored link is removed.
      */
-    public const BOX = 'Box';
+    const BOX = 'Box';
 
     /**
      * OneDrive attachment.
      * When deleted, only stored link is removed.
      */
-    public const ONE_DRIVE = 'OneDrive';
+    const ONE_DRIVE = 'OneDrive';
 
     /**
      * External attachment.
      */
-    public const EXTERNAL = 'External';
+    const EXTERNAL = 'External';
 }

@@ -21,30 +21,30 @@ class TreeScopeEnum extends AbstractEnum
     /**
      * Virtual root folder of account.
      */
-    public const WS_ROOT = 'WsRoot';
+    const WS_ROOT = 'WsRoot';
 
     /**
      * Virtual Recycle Bin folder of account.
      */
-    public const RB_ROOT = 'RbRoot';
+    const RB_ROOT = 'RbRoot';
 
     /**
      * Folder in account.
      */
-    public const WS_FOLDER = 'WsFolder';
+    const WS_FOLDER = 'WsFolder';
 
     /**
      * Folder is in Recycle Bin (deleted folder).
      */
-    public const RB_FOLDER = 'RbFolder';
+    const RB_FOLDER = 'RbFolder';
 
     /**
      * Task in account.
      */
-    public const WS_TASK = 'WsTask';
+    const WS_TASK = 'WsTask';
 
     /**
      * Task is in Recycle Bin (deleted task).
      */
-    public const RB_TASK = 'RbTask';
+    const RB_TASK = 'RbTask';
 }

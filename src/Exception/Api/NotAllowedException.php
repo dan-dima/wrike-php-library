@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class NotAllowedException extends ApiException
 {
-    public const STATUS_CODE = 403;
-    public const STATUS_NAME = 'not_allowed';
+    const STATUS_CODE = 403;
+    const STATUS_NAME = 'not_allowed';
 }

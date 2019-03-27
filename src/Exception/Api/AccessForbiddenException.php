@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class AccessForbiddenException extends ApiException
 {
-    public const STATUS_CODE = 403;
-    public const STATUS_NAME = 'access_forbidden';
+    const STATUS_CODE = 403;
+    const STATUS_NAME = 'access_forbidden';
 }

@@ -23,5 +23,5 @@ class StubEnum extends UserRoleEnum
     /**
      * User.
      */
-    public const FOO = 'BAR';
+    const FOO = 'BAR';
 }

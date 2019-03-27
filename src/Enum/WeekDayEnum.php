@@ -18,11 +18,11 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class WeekDayEnum extends AbstractEnum
 {
-    public const SUN = 'Sun';
-    public const MON = 'Mon';
-    public const TUE = 'Tue';
-    public const WED = 'Wed';
-    public const THU = 'Thu';
-    public const FRI = 'Fri';
-    public const SAT = 'Sat';
+    const SUN = 'Sun';
+    const MON = 'Mon';
+    const TUE = 'Tue';
+    const WED = 'Wed';
+    const THU = 'Thu';
+    const FRI = 'Fri';
+    const SAT = 'Sat';
 }

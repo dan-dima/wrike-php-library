@@ -18,8 +18,8 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class TaskStatusEnum extends AbstractEnum
 {
-    public const ACTIVE = 'Active';
-    public const COMPLETED = 'Completed';
-    public const DEFERRED = 'Deferred';
-    public const CANCELLED = 'Cancelled';
+    const ACTIVE = 'Active';
+    const COMPLETED = 'Completed';
+    const DEFERRED = 'Deferred';
+    const CANCELLED = 'Cancelled';
 }

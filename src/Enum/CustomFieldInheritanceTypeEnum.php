@@ -18,7 +18,7 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class CustomFieldInheritanceTypeEnum extends AbstractEnum
 {
-    public const ALL = 'All';
-    public const FOLDERS = 'Folders';
-    public const PROJECTS = 'Projects';
+    const ALL = 'All';
+    const FOLDERS = 'Folders';
+    const PROJECTS = 'Projects';
 }

@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class ResourceNotFoundException extends ApiException
 {
-    public const STATUS_CODE = 404;
-    public const STATUS_NAME = 'resource_not_found';
+    const STATUS_CODE = 404;
+    const STATUS_NAME = 'resource_not_found';
 }

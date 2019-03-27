@@ -23,8 +23,8 @@ use Exception;
  */
 class ApiException extends Exception
 {
-    public const STATUS_CODE = null;
-    public const STATUS_NAME = null;
+    const STATUS_CODE = null;
+    const STATUS_NAME = null;
 
     /**
      * ApiException constructor.

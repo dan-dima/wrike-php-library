@@ -33,9 +33,9 @@ use Zibios\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
  */
 abstract class ResourceTestCase extends TestCase
 {
-    public const UNIQUE_ID = 'uniqueId';
-    public const VALID_ID = 'validId';
-    public const INVALID_ID = 'wrongId';
+    const UNIQUE_ID = 'uniqueId';
+    const VALID_ID = 'validId';
+    const INVALID_ID = 'wrongId';
 
     /**
      * @var string

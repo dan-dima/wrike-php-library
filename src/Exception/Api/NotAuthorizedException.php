@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class NotAuthorizedException extends ApiException
 {
-    public const STATUS_CODE = 401;
-    public const STATUS_NAME = 'not_authorized';
+    const STATUS_CODE = 401;
+    const STATUS_NAME = 'not_authorized';
 }

@@ -21,6 +21,6 @@ namespace Zibios\WrikePhpLibrary\Exception\Api;
  */
 class InvalidParameterException extends ApiException
 {
-    public const STATUS_CODE = 400;
-    public const STATUS_NAME = 'invalid_parameter';
+    const STATUS_CODE = 400;
+    const STATUS_NAME = 'invalid_parameter';
 }

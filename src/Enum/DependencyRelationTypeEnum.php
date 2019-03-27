@@ -18,8 +18,8 @@ namespace Zibios\WrikePhpLibrary\Enum;
  */
 class DependencyRelationTypeEnum extends AbstractEnum
 {
-    public const START_TO_START = 'StartToStart';
-    public const START_TO_FINISH = 'StartToFinish';
-    public const FINISH_TO_START = 'FinishToStart';
-    public const FINISH_TO_FINISH = 'FinishToFinish';
+    const START_TO_START = 'StartToStart';
+    const START_TO_FINISH = 'StartToFinish';
+    const FINISH_TO_START = 'FinishToStart';
+    const FINISH_TO_FINISH = 'FinishToFinish';
 }

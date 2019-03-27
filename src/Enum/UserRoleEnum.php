@@ -21,10 +21,10 @@ class UserRoleEnum extends AbstractEnum
     /**
      * User.
      */
-    public const USER = 'User';
+    const USER = 'User';
 
     /**
      * Collaborator.
      */
-    public const COLLABORATOR = 'Collaborator';
+    const COLLABORATOR = 'Collaborator';
 }
