@@ -32,7 +32,7 @@ class ApiTest extends ApiTestCase
      */
     protected $sourceClass = Api::class;
 
-    public function test_immutableMethods(): void
+    public function test_immutableMethods()
     {
         $response = $this->object->recreateForNewAccessToken('test');
         self::assertNotSame($this->object, $response);

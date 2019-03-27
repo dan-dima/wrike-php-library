@@ -33,7 +33,7 @@ class IdValidator
      *
      * @throws \InvalidArgumentException
      */
-    public static function assertIsNull($value): void
+    public static function assertIsNull($value)
     {
         if (false === self::isNull($value)) {
             throw new \InvalidArgumentException('Null expected!');
@@ -55,7 +55,7 @@ class IdValidator
      *
      * @throws \InvalidArgumentException
      */
-    public static function assertIsValidIdString($value): void
+    public static function assertIsValidIdString($value)
     {
         if (false === self::isValidIdString($value)) {
             throw new \InvalidArgumentException(sprintf('Invalid Id, should be not empty string!'));
@@ -88,7 +88,7 @@ class IdValidator
      *
      * @throws \InvalidArgumentException
      */
-    public static function assertIsValidIdArray($value): void
+    public static function assertIsValidIdArray($value)
     {
         if (false === self::isValidIdArray($value)) {
             throw new \InvalidArgumentException('Invalid Id, should be not empty array!');

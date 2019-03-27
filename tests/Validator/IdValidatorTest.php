@@ -40,7 +40,7 @@ class IdValidatorTest extends TestCase
      *
      * @dataProvider nullIdProvider
      */
-    public function test_isNullMethods($value, $isValid): void
+    public function test_isNullMethods($value, $isValid)
     {
         self::assertSame($isValid, IdValidator::isNull($value), sprintf('validation null "%s"', $value));
 
@@ -76,7 +76,7 @@ class IdValidatorTest extends TestCase
      *
      * @dataProvider stringIdProvider
      */
-    public function test_isValidIdStringMethods($value, $isValid): void
+    public function test_isValidIdStringMethods($value, $isValid)
     {
         self::assertSame($isValid, IdValidator::isValidIdString($value), sprintf('validation string "%s"', $value));
 
@@ -115,7 +115,7 @@ class IdValidatorTest extends TestCase
      *
      * @dataProvider arrayIdProvider
      */
-    public function test_isValidIdArrayMethods($value, $isValid): void
+    public function test_isValidIdArrayMethods($value, $isValid)
     {
         self::assertSame(
             $isValid,

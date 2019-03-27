@@ -61,7 +61,7 @@ abstract class PsrResponseTransformerTestCase extends TestCase
      *
      * @dataProvider transformParamsProvider
      */
-    public function test_transformParams($response, $resourceClass, $isValid): void
+    public function test_transformParams($response, $resourceClass, $isValid)
     {
         $exceptionOccurred = false;
 

@@ -28,12 +28,12 @@ class ArrayBodyTransformerTest extends PsrResponseTransformerTestCase
      */
     protected $object;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new ArrayBodyTransformer();
     }
 
-    public function test_transform(): void
+    public function test_transform()
     {
         $responseArray = ['key' => 'value', 'number' => 100];
         $responseString = json_encode($responseArray);

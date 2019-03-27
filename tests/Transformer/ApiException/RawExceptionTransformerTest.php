@@ -21,7 +21,7 @@ use Zibios\WrikePhpLibrary\Transformer\ApiException\RawExceptionTransformer;
  */
 class RawExceptionTransformerTest extends TestCase
 {
-    public function test_transform(): void
+    public function test_transform()
     {
         $exception = new \Exception();
         $transformer = new RawExceptionTransformer();

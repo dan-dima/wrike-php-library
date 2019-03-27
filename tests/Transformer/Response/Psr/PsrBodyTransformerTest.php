@@ -27,12 +27,12 @@ class PsrBodyTransformerTest extends PsrResponseTransformerTestCase
      */
     protected $object;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new PsrBodyTransformer();
     }
 
-    public function test_transform(): void
+    public function test_transform()
     {
         $bodyMock = $this->getMockForAbstractClass(StreamInterface::class);
         /** @var ResponseInterface|MockObject $responseMock */

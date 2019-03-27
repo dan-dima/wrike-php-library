@@ -35,7 +35,7 @@ abstract class ApiExceptionTestCase extends TestCase
     /**
      * Sets up the exception.
      */
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new $this->sourceClass(new \Exception());
     }
@@ -43,7 +43,7 @@ abstract class ApiExceptionTestCase extends TestCase
     /**
      * Test exception inheritance.
      */
-    public function test_ExceptionExtendProperClasses(): void
+    public function test_ExceptionExtendProperClasses()
     {
         self::assertInstanceOf(
             Exception::class,

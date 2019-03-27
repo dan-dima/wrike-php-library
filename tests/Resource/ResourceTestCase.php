@@ -45,7 +45,7 @@ abstract class ResourceTestCase extends TestCase
     /**
      * Test exception inheritance.
      */
-    public function test_ExtendProperClasses(): void
+    public function test_ExtendProperClasses()
     {
         $accessTokenMock = 'token';
         $clientMock = $this->getMockBuilder(ClientInterface::class)->getMock();
@@ -80,7 +80,7 @@ abstract class ResourceTestCase extends TestCase
      *
      * @dataProvider methodsProvider
      */
-    public function test_methods($methodData): void
+    public function test_methods($methodData)
     {
         $transformerClasses = [
             PsrResponseTransformer::class,
@@ -96,7 +96,7 @@ abstract class ResourceTestCase extends TestCase
         }
     }
 
-    public function test_testMethodsProvider(): void
+    public function test_testMethodsProvider()
     {
         $class = new \ReflectionClass($this->sourceClass);
         $expectedMethodNames = $class->getMethods(\ReflectionMethod::IS_PUBLIC);
@@ -200,7 +200,7 @@ abstract class ResourceTestCase extends TestCase
      * @param string $transformerClass
      * @param mixed  $response
      */
-    private function executeAssertsForMethod(array $methodData, $transformerClass, $response): void
+    private function executeAssertsForMethod(array $methodData, $transformerClass, $response)
     {
         if (ResourceMethodEnum::DOWNLOAD === $methodData['methodName'] ||
             ResourceMethodEnum::DOWNLOAD_PREVIEW === $methodData['methodName']) {

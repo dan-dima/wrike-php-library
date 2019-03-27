@@ -68,7 +68,7 @@ class ApiExceptionTransformerTest extends TestCase
      *
      * @dataProvider responseExceptionsProvider
      */
-    public function test_transformByStatusCodeAndName($errorStatusCode, $errorStatusName, $expectedExceptionClass): void
+    public function test_transformByStatusCodeAndName($errorStatusCode, $errorStatusName, $expectedExceptionClass)
     {
         $exception = new \Exception();
         $transformer = new ApiExceptionTransformerStub();

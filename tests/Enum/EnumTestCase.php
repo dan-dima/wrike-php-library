@@ -39,7 +39,7 @@ abstract class EnumTestCase extends TestCase
     /**
      * Sets up the exception.
      */
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new $this->sourceClass();
     }
@@ -47,7 +47,7 @@ abstract class EnumTestCase extends TestCase
     /**
      * Test enum inheritance.
      */
-    public function test_EnumExtendProperClasses(): void
+    public function test_EnumExtendProperClasses()
     {
         self::assertInstanceOf(
             AbstractEnum::class,
@@ -61,7 +61,7 @@ abstract class EnumTestCase extends TestCase
         );
     }
 
-    public function test_toArray(): void
+    public function test_toArray()
     {
         // Static access
         $enums = \call_user_func([$this->sourceClass, 'toArray']);
@@ -74,7 +74,7 @@ abstract class EnumTestCase extends TestCase
         self::assertCount($this->enumCount, $enums, $this->sourceClass);
     }
 
-    public function test_getKeys(): void
+    public function test_getKeys()
     {
         // Static access
         $enums = \call_user_func([$this->sourceClass, 'toArray']);
@@ -89,7 +89,7 @@ abstract class EnumTestCase extends TestCase
         self::assertSame(array_keys($enums), $keys);
     }
 
-    public function test_getKey(): void
+    public function test_getKey()
     {
         // Static access
         /** @var array $enums */
@@ -116,7 +116,7 @@ abstract class EnumTestCase extends TestCase
         }
     }
 
-    public function test_getValues(): void
+    public function test_getValues()
     {
         // Static access
         $enums = \call_user_func([$this->sourceClass, 'toArray']);
@@ -131,7 +131,7 @@ abstract class EnumTestCase extends TestCase
         self::assertSame(array_values($enums), $values);
     }
 
-    public function test_getValue(): void
+    public function test_getValue()
     {
         // Static access
         /** @var array $enums */
@@ -179,7 +179,7 @@ abstract class EnumTestCase extends TestCase
      *
      * @dataProvider enumKeysProvider
      */
-    public function test_assertIsValidKey($key, $isValid): void
+    public function test_assertIsValidKey($key, $isValid)
     {
         self::assertSame(
             $isValid,
@@ -241,7 +241,7 @@ abstract class EnumTestCase extends TestCase
      *
      * @dataProvider enumValuesProvider
      */
-    public function test_assertIsValidValue($value, $isValid): void
+    public function test_assertIsValidValue($value, $isValid)
     {
         self::assertSame($isValid, \call_user_func([$this->sourceClass, 'isValidValue'], $value));
         $e = null;
@@ -278,7 +278,7 @@ abstract class EnumTestCase extends TestCase
         }
     }
 
-    public function test_testIsValidEnumCount(): void
+    public function test_testIsValidEnumCount()
     {
         $class = new \ReflectionClass($this->sourceClass);
         $expectedConstants = $class->getConstants();

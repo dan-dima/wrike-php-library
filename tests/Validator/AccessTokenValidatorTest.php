@@ -43,7 +43,7 @@ class AccessTokenValidatorTest extends TestCase
      *
      * @dataProvider validTokenProvider
      */
-    public function test_isValidMethods($value, $isValid): void
+    public function test_isValidMethods($value, $isValid)
     {
         self::assertSame($isValid, AccessTokenValidator::isValid($value), sprintf('validation string "%s"', $value));
 
@@ -79,7 +79,7 @@ class AccessTokenValidatorTest extends TestCase
      *
      * @dataProvider validOrEmptyTokenProvider
      */
-    public function test_isValidOrEmptyMethods($value, $isValid): void
+    public function test_isValidOrEmptyMethods($value, $isValid)
     {
         self::assertSame($isValid, AccessTokenValidator::isValidOrEmpty($value), sprintf('validation string "%s"', $value));
 

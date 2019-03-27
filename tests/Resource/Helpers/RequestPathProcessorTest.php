@@ -180,7 +180,7 @@ class RequestPathProcessorTest extends TestCase
      *
      * @dataProvider paramsProvider
      */
-    public function test_prepareRequestPathForResourceMethod(array $params): void
+    public function test_prepareRequestPathForResourceMethod(array $params)
     {
         $processor = new RequestPathProcessor();
 
@@ -248,7 +248,7 @@ class RequestPathProcessorTest extends TestCase
      *
      * @dataProvider exceptionProvider
      */
-    public function test_exceptions(array $params): void
+    public function test_exceptions(array $params)
     {
         $processor = new RequestPathProcessor();
         $exception = null;

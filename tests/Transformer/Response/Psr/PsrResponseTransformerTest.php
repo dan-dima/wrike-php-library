@@ -26,12 +26,12 @@ class PsrResponseTransformerTest extends PsrResponseTransformerTestCase
      */
     protected $object;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new PsrResponseTransformer();
     }
 
-    public function test_transform(): void
+    public function test_transform()
     {
         /** @var ResponseInterface $responseMock */
         $responseMock = $this->getMockForAbstractClass(ResponseInterface::class);

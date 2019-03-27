@@ -27,12 +27,12 @@ class StringBodyTransformerTest extends PsrResponseTransformerTestCase
      */
     protected $object;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->object = new StringBodyTransformer();
     }
 
-    public function test_transform(): void
+    public function test_transform()
     {
         $responseString = '{"key": "value"}';
         $bodyMock = $this->getMockForAbstractClass(StreamInterface::class);

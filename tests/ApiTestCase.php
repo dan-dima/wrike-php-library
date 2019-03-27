@@ -45,7 +45,7 @@ abstract class ApiTestCase extends TestCase
      */
     protected $object;
 
-    public function setUp(): void
+    public function setUp()
     {
         $accessTokenMock = 'token';
         $clientMock = $this->getMockBuilder(ClientInterface::class)->getMock();
@@ -107,7 +107,7 @@ abstract class ApiTestCase extends TestCase
         $apiExceptionTransformerMock,
         $accessToken,
         $isValid
-    ): void {
+    ) {
         $exceptionOccurred = false;
 
         try {
@@ -177,14 +177,14 @@ abstract class ApiTestCase extends TestCase
      *
      * @dataProvider resourceProvider
      */
-    public function test_getResource($api, $getResourceMethod, $expectedResourceClass): void
+    public function test_getResource($api, $getResourceMethod, $expectedResourceClass)
     {
         $resourceOriginal = $api->{$getResourceMethod}();
         self::assertInstanceOf($expectedResourceClass, $resourceOriginal);
         self::assertNotSame($resourceOriginal, $api->{$getResourceMethod}());
     }
 
-    public function test_testGetResourceProviderCoverAllMethods(): void
+    public function test_testGetResourceProviderCoverAllMethods()
     {
         $class = new \ReflectionClass($this->sourceClass);
         $expectedMethodNames = $class->getMethods(\ReflectionMethod::IS_PUBLIC);
@@ -215,7 +215,7 @@ abstract class ApiTestCase extends TestCase
         }
     }
 
-    public function test_normalizeParams(): void
+    public function test_normalizeParams()
     {
         $resource = fopen(__FILE__, 'rb');
         $inputParams = [
